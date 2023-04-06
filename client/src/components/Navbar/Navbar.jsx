@@ -7,6 +7,7 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Link } from 'react-router-dom';
 import "./Navbar.scss"
 
+
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -28,7 +29,9 @@ const Navbar = () => {
                 </div>
             </div>
             <div className='center'>
-                <Link className='link' to="/">Sassy Sally's</Link>
+                <Link className='link' to="/">
+                    <img src='/img/sassy-sally-logo.png'></img>
+                </Link>
             </div>
             <div className='right'>
                 <div className='item'>

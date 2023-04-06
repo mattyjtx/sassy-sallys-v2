@@ -19,8 +19,21 @@
             gap: 25px;
         }
         .center{
-            font-size: 30px; 
-            letter-spacing: 2px;
+            // font-size: 30px; 
+            // letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+
+            img{
+                display: flex;
+                align-items: center;
+                // margin-top: 5px;
+                // margin-bottom: 5px;
+                height: 70px;
+                width: 80px;
+                object-fit: cover;
+
+            }
         }
         .right{
             display: flex;
