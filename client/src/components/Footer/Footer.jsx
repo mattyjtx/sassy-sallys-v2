@@ -38,7 +38,7 @@ const Footer = () => {
           <span className='copyright'>© Copyright 2023. All Rights Reserved</span>
         </div>
         <div className="right">
-          <img src='/img/payment.png'></img>
+          <img src='/img/payment.png' alt=''></img>
         </div>
       </div>
     </div>
