@@ -13,7 +13,7 @@ const [error,setError] = useState(false)
                 setLoading(true)
                 const res = await makeRequest.get(url);
 
-                setData(res.data.data);
+                setData(res.data.data); 
             }catch(err){
                 setError(true);
             }
