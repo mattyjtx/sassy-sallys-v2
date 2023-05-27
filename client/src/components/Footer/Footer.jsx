@@ -22,14 +22,16 @@ const Footer = () => {
         <div className="item">
           <h1>About</h1>
           <span>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus laboriosam ab, corrupti suscipit ullam, hic neque fuga harum dolorem blanditiis accusantium quod porro quibusdam maxime voluptates exercitationem voluptate qui rem?
+          Sassy Sally’s Boutique is an all around boutique. Catering to various price points available to any budget shoppers.  I want all types of women to feel comfortable and confident when shopping for their classy, polished or casual looks. 
           </span>
         </div>
         <div className="item">
         <h1>Contact</h1>
           <span>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus laboriosam ab, corrupti suscipit ullam, hic neque fuga harum dolorem blanditiis accusantium quod porro quibusdam maxime voluptates exercitationem voluptate qui rem?
+          3001 W. Loop 250 N.  C109, Midland, TX, United States, 79705
           </span>
+          <span>(432) 695-6057</span>
+          <span>sassysallysboutiquellc@gmail.com</span>
         </div>
       </div>
       <div className="bottom">
