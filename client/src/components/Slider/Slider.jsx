@@ -9,9 +9,9 @@ const Slider = () => {
     const [currentSlide, setcurrentSlide] = useState(0)
 
     const data = [
-        "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
-        "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "https://b1491951.smushcdn.com/1491951/wp-content/uploads/2021/07/2021-09-josephribkoff-02.png?lossy=0&strip=1&webp=1",
+        "https://www.classicshapewear.com/images/manufacturers/mobile_banner/lysse_cat_banner.jpg",
+        "https://umgeewholesale.com/media/bannerslider/0/4/0426-mainbanner.jpg",
       ];
 
       const prevSlide =()=>{
