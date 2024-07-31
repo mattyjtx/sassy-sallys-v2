@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="item">
           <h1>About</h1>
           <span>
-          Sassy Sally’s Boutique is an all around boutique. Catering to various price points available to any budget shoppers.  I want all types of women to feel comfortable and confident when shopping for their classy, polished or casual looks. 
+          Sassy Sally’s Boutique is an all around boutique. Catering to various price points available to any budget shoppers.
           </span>
         </div>
         <div className="item">

@@ -13,6 +13,7 @@ const Product = () => {
   const id = useParams().id;
   const [selectedImg,setSelectedImg] = useState("img")
   const [quantity,setQuantity] = useState(1)
+  const [size, setSize] = useState()
 
   const dispatch = useDispatch()
   const {data, loading, error} = useFetch(`/products/${id}?populate=*`);
@@ -37,6 +38,12 @@ const Product = () => {
         <h1>{data?.attributes?.title}</h1>
         <span className='price'>${data?.attributes?.price}</span>
         <p>{data?.attributes?.desc}</p>
+        <div className='sizes'>
+          <p>sizes:</p>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+        </div>
         <div className="quantity">
           <button onClick={()=>setQuantity((prev) => prev ===1 ? 1 : prev-1)}>-</button>
           {quantity}
